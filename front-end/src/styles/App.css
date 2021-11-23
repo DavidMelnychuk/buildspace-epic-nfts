@@ -61,6 +61,10 @@
   margin-right: 15px;
 }
 
+.cta-button:disabled {
+  opacity: 70%;
+}
+
 .opensea-button {
   background-color: rgb(32, 129, 226);
 }
