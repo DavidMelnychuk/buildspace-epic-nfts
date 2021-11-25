@@ -25,6 +25,9 @@ module.exports = {
       url: process.env.DEVELOPMENT_ALCHEMY_KEY,
       accounts: [process.env.PRIVATE_KEY],
     },
+    hardhat: {
+      chainId: 1337
+    }
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY

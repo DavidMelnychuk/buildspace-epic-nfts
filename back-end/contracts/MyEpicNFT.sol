@@ -100,7 +100,7 @@ contract MyEpicNFT is ERC721URIStorage {
         emit NewEpicNFTMinted(msg.sender, newItemId);
     }
 
-    function getTotalNFTsMintedSoFar() public view returns (uint256){
+    function getTotalNFTsMinted() public view returns (uint256){
         return _tokenIds.current();
     }
 }
